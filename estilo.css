@@ -1,0 +1,104 @@
+/* Estilos para a aplicação de consumo da API do IBGE */
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 20px; 
+    max-width: 1000px; 
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 { 
+    color: #0066cc; 
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #0066cc;
+    margin-top: 20px;
+}
+
+.container { 
+    margin-bottom: 30px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background: #f4f4f4; 
+    border-radius: 5px; 
+}
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    color: #444;
+}
+
+input, select { 
+    margin-bottom: 15px; 
+    padding: 8px; 
+    width: 100%; 
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button { 
+    background: #0066cc; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover { 
+    background: #004c99; 
+}
+
+.resultado { 
+    border: 1px solid #ddd; 
+    padding: 15px; 
+    margin-top: 20px; 
+    background: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+ul { 
+    margin: 0; 
+    padding-left: 20px; 
+}
+
+li { 
+    margin-bottom: 5px; 
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #666;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
